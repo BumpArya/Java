@@ -6,7 +6,7 @@
 
 import java.util.Scanner;
 
-public class Java_Exercise_Set_1 {
+public class Java_Chapter_1_Practice_Set {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
