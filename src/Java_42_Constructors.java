@@ -10,6 +10,8 @@ Parametrized Constructor -->
 <class-name>(<data-type> param1, <data-type> param2,......){
 //code to be executed on the invocation of the constructor
 }
+
+shortcut for creating constructor/getter-setter --> alt + insert
 */
 
 class MyMainEmployee{
@@ -45,7 +47,7 @@ class MyMainEmployee{
 }
 public class Java_42_Constructors {
     public static void main(String[] args) {
-        MyMainEmployee obj1 = new MyMainEmployee();
+        MyMainEmployee obj1 = new MyMainEmployee(); // Calls the constructor method
         System.out.println(obj1.getId());
         System.out.println(obj1.getName()); // returns values in default constructor
 
