@@ -9,28 +9,25 @@ class Library{
     }
 
     void displayBooks(){
-        System.out.println("-------X-------");
-        System.out.println("---------------");
-        System.out.println("available Books");
-        System.out.println("---------------");
+        System.out.println("-----------------");
+        System.out.print("available Books : \n");
+        System.out.println("-----------------");
         for (String i : books) {
             if(i == null){
-                System.out.print("");
-            }else {
-                System.out.println(i);
+                continue;
             }
+            System.out.println(i);
         }
-        System.out.println("---------------");
-        System.out.println("Issued Books");
-        System.out.println("---------------");
+        System.out.println("-----------------");
+        System.out.print("Issued Books : \n");
+        System.out.println("-----------------");
         for (String j : booksIss) {
             if(j == null){
-                System.out.print("");
-            }else {
-                System.out.println(j);
+                continue;
             }
+            System.out.println(j);
         }
-        System.out.println("-------X-------");
+        System.out.println("-----------------");
     }
 
     void issueBook(String issBook){
@@ -42,7 +39,8 @@ class Library{
                 return;
             }
         }
-        System.out.println("This book is not present in our library");
+        System.out.println(issBook + " is not present in our library");
+        displayBooks();
     }
 
     void returnBook(String retBook){
@@ -54,7 +52,8 @@ class Library{
                 return;
             }
         }
-        System.out.println("This book does not belong to our library");
+        System.out.println(retBook + " does not belong to our library");
+        displayBooks();
     }
 }
 
@@ -64,7 +63,7 @@ public class Java_Exercise_4 {
         L.addBook("Beyond Good and Evil");
         L.addBook("Communist Manifesto");
         L.addBook("Plato's republic");
-        L.addBook("The Myth of Sisyhus");
+        L.addBook("The Myth of Sisyphus");
         L.addBook("The Prince");
         L.addBook("Art of War");
         L.displayBooks();
