@@ -1,3 +1,5 @@
+// Warning - look at the objects created
+
 package package1;
 
 import Java_Ch_12.*;

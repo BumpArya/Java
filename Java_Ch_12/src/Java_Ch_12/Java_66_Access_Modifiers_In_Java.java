@@ -1,3 +1,5 @@
+// Warning - look at the objects created
+
 package Java_Ch_12;
 
 public class Java_66_Access_Modifiers_In_Java {
