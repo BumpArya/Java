@@ -1,4 +1,3 @@
-
 public class Java_02_Basic_Structure_Of_Program { //Java_02_Basic_Structure_Of_Program --> Template for creating class objects
 
     public static void main(String[] args) { //main --> Function performs an action
