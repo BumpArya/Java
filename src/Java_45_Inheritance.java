@@ -4,7 +4,7 @@ class Subclass-name extends Superclass-name {
 }
 */
 
-class Base{
+class Base {
     public int x;
 
     // getter
