@@ -1,3 +1,10 @@
+/*
+Some methods include :
+<Thread_name>.join(long millis,long nanos); // Surround with try and catch block
+Thread.sleep(long millis,long nanos); // Surround with try and catch block
+<Thread_name>.interrupt();
+*/
+
 class Thr1 extends Thread{
     @Override
     public void run() {

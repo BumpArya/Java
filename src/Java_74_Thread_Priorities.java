@@ -1,3 +1,12 @@
+/*
+Syntax : setPriority()
+<Thread_name>.setPriority(Thread.<MIN/NORM/MAX>_PRIORITY);
+<Thread_name>.setPriority(0<int<10);
+
+Syntax : getPriority()
+<Thread_Name>.getPriority;
+*/
+
 class NewThr1 extends Thread{
     @Override
     public void run() {
