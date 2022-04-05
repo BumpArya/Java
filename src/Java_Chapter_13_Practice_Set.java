@@ -17,7 +17,7 @@ class Welcome extends Thread {
     }
 }
 
-public class Java_Chapter_12_Exercise_Set {
+public class Java_Chapter_13_Practice_Set {
     public static void main(String[] args) {
 
         GoodMorning obj1 = new GoodMorning();

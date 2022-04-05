@@ -6,7 +6,7 @@ class Exception extends Exception{
 }
 
 Syntax : Throw keyword
-if(condition for exception){
+if(condition for Exception){
             try {
                 throw new Exception();
             }catch (Exception e){
