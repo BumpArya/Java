@@ -1,8 +1,3 @@
-/*
-Syntax : Lambda expressions
-(parameters)->Code;
-*/
-
 interface FunctionalInterfaceAnonymousDemo {
     void methodZero();
 }
