@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","u":"allclasses-index.html"},{"p":"<Unnamed>","l":"Java_105_Generating_JavaDocs_For_Package"}];updateSearchResults();

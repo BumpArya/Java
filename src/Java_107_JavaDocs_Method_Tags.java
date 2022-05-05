@@ -14,7 +14,7 @@ public class Java_107_JavaDocs_Method_Tags {
      * @return integer quotient for a divided b
      * @throws ArithmeticException divisor is 0
      */
-    int divide(int a, int b){
+    static int divide(int a, int b){
         return a/b;
     }
     public static void main(String[] args) {
